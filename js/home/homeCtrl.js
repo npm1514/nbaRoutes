@@ -1,5 +1,3 @@
-var app = angular.module('nbaRoutes');
-
-app.controller('homeCtrl', function ($scope, homeService) {
+angular.module('nbaRoutes').controller('homeCtrl', function ($scope, homeService, allData) {
 
 });

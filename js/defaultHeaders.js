@@ -1,6 +1,4 @@
-var app = angular.module('nbaRoutes');
-
-app.factory('httpRequestInterceptor', function () {
+angular.module('nbaRoutes').factory('httpRequestInterceptor', function () {
     return {
         request: function (config) {
             config.headers = {

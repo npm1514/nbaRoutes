@@ -11,6 +11,10 @@
 <body>
     <div class="main-container" ng-controller="mainCtrl">
         <div class="menu">
+            <div class="jams">
+              <a ui-sref="home"><img src="images/jams.jpg"/><h1>"HE'S ON FIIIRRRRE!!!"</h1></a>
+            </div>
+
             <ul>
                 <li><a ui-sref="home"> Home </a></li>
                 <li><a ui-sref="teams({team: 'utahjazz'})"> Utah Jazz </a></li>
@@ -18,8 +22,7 @@
                 <li><a ui-sref="teams({team: 'miamiheat'})"> Miami Heat </a></li>
             </ul>
         </div>
-
-        <!--the views get injected in the following element:-->
+        <!-- content goes here -->
         <div ui-view></div>
 
     </div>
